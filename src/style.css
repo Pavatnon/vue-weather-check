@@ -54,6 +54,16 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+input[type="text"]{
+  width: 100%;
+  border-radius: 8px;
+  padding-inline: 12px;
+  border: 1px solid transparent;
+  transition: border-color 0.25s;
+}
+input[type="text"]:focus{
+  border-color: #646cff;
+}
 .card {
   padding: 2em;
 }
